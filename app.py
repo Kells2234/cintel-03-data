@@ -24,7 +24,7 @@ from util_logger import setup_logger
 logger, logname = setup_logger(__name__)
 
 app_ui = ui.page_navbar(
-    shinyswatch.theme.lumen(),
+    shinyswatch.theme.morph(),
     ui.nav(
         "Home",
         ui.layout_sidebar(
@@ -74,8 +74,8 @@ app_ui = ui.page_navbar(
             get_penguins_outputs(),
         ),
     ),
-    ui.nav(ui.a("About", href="https://github.com/denisecase")),
-    ui.nav(ui.a("GitHub", href="https://github.com/denisecase/cintel-03-data")),
+    ui.nav(ui.a("About", href="https://github.com/Kells2234")),
+    ui.nav(ui.a("GitHub", href="https://github.com/Kells2234/cintel-03-data")),
     ui.nav(ui.a("App", href="https://denisecase.shinyapps.io/cintel-03-data/")),
     ui.nav(ui.a("Examples", href="https://shinylive.io/py/examples/")),
     ui.nav(ui.a("Themes", href="https://bootswatch.com/")),
@@ -90,7 +90,7 @@ def server(input, output, session):
     @render.text
     def welcome_output():
         user = input.name_input()
-        welcome_string = f"Greetings {user}!"
+        welcome_string = f"Welcome {user}!"
         return welcome_string
 
     @output
