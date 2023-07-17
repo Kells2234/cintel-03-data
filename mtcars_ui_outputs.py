@@ -18,6 +18,7 @@ def get_mtcars_outputs():
             ui.h3("MT Cars Table"),
             ui.output_text("mtcars_record_count_string"),
             ui.output_table("mtcars_table"),
+            ui.tags.li("vs: V/S (Drive; 0 = Rear Wheel, 1 = Front Wheel)"),
             ui.tags.hr(),
         ),
     )
