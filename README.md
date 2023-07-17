@@ -1,6 +1,6 @@
 # Continuous Intelligence and Interactive Analytics - Working With Data
 
-- Interactive app: [cintel-03-data](https://denisecase.shinyapps.io/cintel-03-data/) - see MT Cars tab and Penguins tab
+- Interactive app: [cintel-03-data](https://s557075ks.shinyapps.io/cintel-03-data/) - see MT Cars tab and Penguins tab
 - Repository: [cintel-03-data](https://github.com/Kells2234/cintel-03-data)
 - Author: [Kelly Simmons](https://github.com/Kells2234)
 
